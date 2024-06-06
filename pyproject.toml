@@ -1,0 +1,11 @@
+# projects.toml
+[main]
+name = "main"
+relPath = ""
+subsystem = "python"
+translator = "pip"
+
+[main.subsystemInfo]
+pythonAttr = "python3"
+extraSetupDeps = [ "-r source/requirements.txt" ]
+pythonVersion = "3.11"
