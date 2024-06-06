@@ -6,6 +6,6 @@
     systems = ["x86_64-linux"];
     config.projectRoot = ./.;
     source = ./.;
-    projects = ./requirements.txt;
+    projects = ./projects.toml;
   };
 }
